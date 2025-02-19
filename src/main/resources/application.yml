@@ -1,0 +1,14 @@
+spring:
+  application :
+    name : dine-in-order-api
+
+#DATASOURSE CONFIGURATION
+
+  datasource:
+    url: jdbc:mysql://locahost:3306/dine_in_db?CreateDatabaseIfNotExits=true
+    username: root
+    password: root
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
